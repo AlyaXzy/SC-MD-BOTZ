@@ -1593,10 +1593,7 @@ break
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
                     footer: hisoka.user.name,
-                    buttons: buttons,
-                    headerType: 4
-                }
-                hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
+                    buttons: buttons,Jadichat, buttonMessage, { quoted: m })
             }
             break
             case 'quotesanime': case 'quoteanime': {
@@ -2519,7 +2516,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             break
             case 'list': case 'menu': case 'help': case '?': {
 
-`HAI KAK @user 👋 SAYA ALYA BOT-MD,ADA YANG BISA SAYA BANTU?,UNTUK YANG INGIN JADI BOT SILAH KAN HUBUNGI OWNER! UNTUK HARGA CUMAN 25K SUDAH PAKET LENGKAP!
+                anu = `HAI KAK @user 👋 SAYA ALYA BOT-MD,ADA YANG BISA SAYA BANTU?,UNTUK YANG INGIN JADI BOT SILAH KAN HUBUNGI OWNER! UNTUK HARGA CUMAN 25K SUDAH PAKET LENGKAP!
 JAN LUPA JOIN GRUP BOT SAYAH : https://chat.whatsapp.com/I5kpHaw5SEQEBQQJPrGXd2`
                 anu = `┌──⭓ *Group Menu*
 │
