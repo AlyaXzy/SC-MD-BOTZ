@@ -18,7 +18,7 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6283167714830','6281382420312','6288292024190']
+global.owner = ['6285893466306','6285893466306','6283863605242']
 global.premium = ['6288292024190']
 global.packname = 'Hisoka Morrow'
 global.author = 'WhatsApp Bot'
@@ -26,8 +26,8 @@ global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '✓ Success',
-    admin: 'Fitur Khusus Admin Group!',
+    success: 'Nih Dah Jadi Jan Lupa Donasi Yo',
+    admin: 'Fitur Khusus Admin Group Dekkk!',
     botAdmin: 'Bot Harus Menjadi Admin Terlebih Dahulu!',
     owner: 'Fitur Khusus Owner Bot',
     group: 'Fitur Digunakan Hanya Untuk Group!',
@@ -40,7 +40,7 @@ global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.thumb = fs.readFileSync('./lib/hisoka.jpg')
+global.thumb = fs.readFileSync('./lib/20220307_051753.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
