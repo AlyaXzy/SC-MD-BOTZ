@@ -2518,6 +2518,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
+
 `HAI KAK @user 👋 SAYA ALYA BOT-MD,ADA YANG BISA SAYA BANTU?,UNTUK YANG INGIN JADI BOT SILAH KAN HUBUNGI OWNER! UNTUK HARGA CUMAN 25K SUDAH PAKET LENGKAP!
 JAN LUPA JOIN GRUP BOT SAYAH : https://chat.whatsapp.com/I5kpHaw5SEQEBQQJPrGXd2`
                 anu = `┌──⭓ *Group Menu*
